@@ -70,3 +70,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.header{
+  border-bottom: 1px solid #AFB1B6;
+}

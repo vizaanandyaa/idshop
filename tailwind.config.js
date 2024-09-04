@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       fontFamily: { 
         "work": ["Work Sans", 'sans-serif'] 
-    }
+    },
+    colors: {
+      'tosca': '#0A91AB',
+    },
     },
   },
   plugins: [],
