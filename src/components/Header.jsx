@@ -44,7 +44,7 @@ export default function Header() {
           Daftar
         </Button>
       </div>
-      <div className="flex p-4 justify-between lg:justify-normal">
+      <div className="flex p-4 lg:justify-normal">
         <img
           className="w-[171px] h-[54px] mr-[10%] hidden lg:block"
           src={logo}
@@ -60,7 +60,7 @@ export default function Header() {
             Cari
           </Button>
         </div>
-        <Button className="border-0 px-3 py-4 w-[56px] h-[48px]">
+        <Button className="border-0 p-0 md:px-3 md:py-4 w-[56px] h-[48px]">
           <img className="w-[24px] h-[24px]" src={cart} alt="cart" />
         </Button>
         <Button

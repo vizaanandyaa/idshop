@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header } from './components'
+import { Header,Banner } from './components'
 import { ConfigProvider } from 'antd'
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
 
     <div className='font-work'>
       <Header/>
+      <Banner/>
     </div>
     </ConfigProvider>
   )

@@ -74,3 +74,72 @@ button:focus-visible {
 .header{
   border-bottom: 1px solid #AFB1B6;
 }
+
+.splide__pagination > li > button{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.splide__pagination > li > button.is-active{
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+
+.splide__pagination{
+  top: 350px;
+  left: -83%!important;
+}
+
+.splide__arrows > button{
+  background-color: #0A91AB;
+  padding: 16px 20px;
+  width: 64px;
+  height: 54px;
+  border-radius: 5px;
+}
+
+#splide01{
+  padding: 6%;
+}
+
+@media only screen and (max-width: 1023px){
+  .splide__pagination{
+    top: 70%;
+    left: -80%!important;
+  }
+  #splide01{
+    padding: 3%;
+  }
+}
+
+/* @media only screen and (max-width: 720px){
+  .splide__pagination{
+    top: 60%;
+    left: -75%!important;
+  }
+} */
+
+@media only screen and (max-width: 570px){
+  /* .splide__pagination{
+    top: 50%;
+    left: -65%!important;
+  } */
+  .splide__arrows > button{
+    display: none;
+  }
+  .splide__pagination > li > button{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .splide__pagination > li > button.is-active{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+  }
+
+}
+
