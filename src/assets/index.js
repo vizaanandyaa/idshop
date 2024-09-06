@@ -5,5 +5,20 @@ import prev from './icons/prevBtn.png'
 import banner1 from './images/banner-1.png'
 import banner2 from './images/banner-2.png'
 import banner3 from './images/banner-3.png'
+import pet from './icons/pet.png'
+import baby from './icons/baby.png'
+import bag from './icons/bag.png'
+import dress from './icons/dress.png'
+import fnd from './icons/fnd.png'
+import hnl from './icons/hnl.png'
+import hobby from './icons/hobby.png'
+import laptop from './icons/laptop.png'
+import makeup from './icons/makeup.png'
+import manshoe from './icons/manshoe.png'
+import med from './icons/medicine.png'
+import tshirt from './icons/tshirt.png'
+import womanshoe from './icons/womanshoe.png'
+import phone from './icons/phone.png'
 
-export {logo,cart, menu, prev,banner1,banner2,banner3}
+
+export {logo,cart, menu, prev,banner1,banner2,banner3,pet,baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, phone}

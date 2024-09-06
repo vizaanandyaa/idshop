@@ -1,4 +1,5 @@
 import Header from "./Header";
 import Banner from "./Banner";
+import CategoryCard from "./CategoryCard";
 
-export {Header, Banner}
+export {Header, Banner, CategoryCard}

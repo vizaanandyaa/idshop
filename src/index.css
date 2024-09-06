@@ -104,6 +104,19 @@ button:focus-visible {
   padding: 6%;
 }
 
+.br{
+  border-bottom: 1px solid #AFB1B6;
+  border-right: 1px solid #AFB1B6;
+}
+
+.bo{
+  border-bottom: 1px solid #AFB1B6;
+}
+
+.ri{
+  border-right: 1px solid #AFB1B6;
+}
+
 @media only screen and (max-width: 1023px){
   .splide__pagination{
     top: 70%;
