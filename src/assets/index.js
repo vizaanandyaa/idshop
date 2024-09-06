@@ -19,6 +19,8 @@ import med from './icons/medicine.png'
 import tshirt from './icons/tshirt.png'
 import womanshoe from './icons/womanshoe.png'
 import phone from './icons/phone.png'
+import event1 from './images/event1.png'
+import voucher1 from './images/voucher1.png'
 
 
-export {logo,cart, menu, prev,banner1,banner2,banner3,pet,baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, phone}
+export {logo,cart, menu, prev,banner1,banner2,banner3,pet,baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, phone,event1,voucher1}

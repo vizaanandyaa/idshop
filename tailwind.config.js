@@ -10,6 +10,7 @@ module.exports = {
     },
     colors: {
       'tosca': '#0A91AB',
+      'yello':'#FFC045'
     },
     },
   },
