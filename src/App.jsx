@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Header,Banner, CategoryCard } from './components'
 import { ConfigProvider, Tabs, Input } from 'antd'
 import { baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe } from './assets'
-import { Pulsa } from './features'
+import { TopUp } from './features'
 
 function App() {
   const datas1 = [{border:'br',img:bag,name:'Tas'},{border:'br',img:dress,name:'Pakaian Wanita'},{border:'br',img:tshirt,name:'Pakaian Pria'},{border:'br',img:womanshoe,name:'Sepatu Wanita'},{border:'br',img:manshoe,name:'Sepatu Pria'},{border:'bo',img:hobby,name:'Hobi'}]
@@ -17,7 +17,30 @@ function App() {
     {
       key:'1',
       label:'Pulsa',
-      children: <Pulsa/>
+      children: <TopUp type='pulsa'/>
+    },
+    {
+      key:'2',
+      label:'Paket data',
+      children: <TopUp type='pdata'/>
+    },
+    {
+      key:'3',
+      label:'Listrik PLN',
+      children: '',
+      disabled:true
+    },
+    {
+      key:'4',
+      label:'Uang Elektronik',
+      children: '',
+      disabled:true
+    },
+    {
+      key:'5',
+      label:'Air PDAM',
+      children: '',
+      disabled:true
     }
   ]
   return (

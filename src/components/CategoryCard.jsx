@@ -8,8 +8,8 @@ export default function CategoryCard(props) {
       {data.map((item, index) => {
         return (
           <div key={index} className={`${item.border} px-3 py-6 w-[166px]`}>
-            <img src={item.img} alt="catelogo" className="mx-auto mb-2"/>
-            <a href='#' className="text-center block">{item.name}</a>
+            <img src={item.img} alt="catelogo" className="mx-auto mb-2 lg:w-[80px] w-[50px]"/>
+            <a href='#' className="text-center block lg:text-base text-sm">{item.name}</a>
           </div>
         );
       })}

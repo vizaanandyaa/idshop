@@ -1,3 +1,2 @@
-import Pulsa from "./Pulsa";
-
-export { Pulsa }
+import TopUp from "./TopUp";
+export { TopUp }
