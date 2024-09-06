@@ -11,11 +11,15 @@ export default function Banner() {
   const banners = [banner1, banner2, banner3];
   return (
     <div className="lg:max-w-[1248px] mx-auto">
-      <Splide aria-label="My Favorite Images">
+      <Splide aria-label="banner" options={{
+        classes: {
+          pagination: `splide__pagination bannerClass`
+        }
+      }}>
         {banners.map((ban,index)=>{
             return(
 
-            <SplideSlide>
+            <SplideSlide key={index}>
             <img src={ban} alt={`ban-${index + 1}`} />
             </SplideSlide>
             )
