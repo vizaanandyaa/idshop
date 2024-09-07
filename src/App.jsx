@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Header,Banner, CategoryCard, OfferCard, ProductSlider } from './components'
+import { Header,Banner, CategoryCard, OfferCard, ProductSlider, Product } from './components'
 import { ConfigProvider, Tabs, Input } from 'antd'
-import { baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, event1,voucher1,pro1,pro2,pro3,pro4,pro5,pro6 } from './assets'
+import { baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, event1,voucher1,pro1,pro2,pro3,pro4,pro5,pro6,pro7,pro8,pro9,pro10,pro11,pro12,pro13,pro14,pro15,pro16,pro17,pro18} from './assets'
 import { TopUp } from './features'
 
 function App() {
@@ -16,7 +16,8 @@ function App() {
   const voucherD1 = {type:'voucher',img:voucher1,headline:'GRATIS ONGKIR 50%',subline:'Klaim voucher gratis ongkos kirim Kamu.'}
   const datasPhone = [datas3,datas4,datas5,datas6]
   const datasOffer = [eventD1,voucherD1]
-  const discPro = [{img:pro1,disc:'-50%',price:10900},{img:pro2,disc:'-20%',price:120899},{img:pro3,disc:'-70%',price:67402},{img:pro4,disc:'-10%',price:49909},{img:pro5,disc:'-60%',price:80128},{img:pro6,disc:'-70%',price:59093}]
+  const discPro = [{img:pro1,disc:'-50%',price:10900,sold:null, name:null},{img:pro2,disc:'-20%',price:120899,sold:null,name:null},{img:pro3,disc:'-70%',price:67402,sold:null,name:null},{img:pro4,disc:'-10%',price:49909,sold:null,name:null},{img:pro5,disc:'-60%',price:80128,sold:null,name:null},{img:pro6,disc:'-70%',price:59093,sold:null,name:null}]
+  const recPro = [{img:pro7,disc:null,price:120683,sold:1500, name:'Pinka Lipstick - Red Cheery Bloom'},{img:pro8,disc:'-20%',price:80837,sold:1000,name:'Eye Shadow Mulan - Cold Tone'},{img:pro9,disc:'-50%',price:54829,sold:456,name:'Almond Milk - FreshkyMilk'},{img:pro10,disc:'-20%',price:83092,sold:1000,name:'Kaos Hitam Bulop - Size M'},{img:pro11,disc:'-10%',price:50568,sold:10000,name:'Reed Diffuser Aromaterapi'},{img:pro12,disc:'-50%',price:93002,sold:1000,name:'Alexa Ring - Titanium Silver Gold'},{img:pro13,disc:'-25%',price:45903,sold:5000, name:'kacamata Baca murah'},{img:pro14,disc:null,price:110938,sold:2100,name:'Sepatu kerja wanita - Putih'},{img:pro15,disc:'-10%',price:39748,sold:6200,name:'Baju wanita - Hijau Army'},{img:pro16,disc:'-50%',price:320739,sold:1500,name:'Levis wanita premium'},{img:pro17,disc:'-80%',price:29478,sold:5000,name:'Wadah kaca estetik'},{img:pro18,disc:'-10%',price:490379,sold:9400,name:'Mechanical Wireless Keyboard - Visky'}]
   const items =[
     {
       key:'1',
@@ -97,6 +98,16 @@ function App() {
           <a href='#' className='text-xs block px-3 py-4 text-tosca'>Lihat Semua</a>
         </div>
         <ProductSlider products={discPro}/>
+      </div>
+      <div className='max-w-[1048px] mx-auto p-6 mb-[40px]'>
+        <p className='text-xl'>Rekomendasi untuk Kamu</p>
+        <div className='grid grid-cols-2 gap-4 lg:grid-cols-6 md:grid-cols-4'>
+          {recPro.map((pro,index)=>{
+            return(
+              <Product product={pro} recKey={index}/>
+            )
+          })}
+        </div>
       </div>
     </div>
     </ConfigProvider>

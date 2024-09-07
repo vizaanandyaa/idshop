@@ -12,7 +12,10 @@ export default function ProductSlider(props) {
   return (
     <div className="lg:max-w-[1248px] mx-auto">
       <Splide aria-label="product" options={{arrows:false,pagination:false,perPage:2, mediaQuery: 'min',breakpoints: {
-		1024: {
+		640: {
+			perPage: 4,
+		},
+    1024: {
 			perPage: 6,
 		},
   }}}>
