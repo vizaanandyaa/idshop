@@ -57,8 +57,10 @@ function App() {
       }}
     >
 
-    <div className='font-work bg-[#F9F9F9]'>
+    <div className='font-work'>
       <Header/>
+      <div className='bg-[#F9F9F9] pt-[30%] sm:pt-[20%] lg:pt-[13%]'>
+
       <Banner/>
       <div className='max-w-[1048px] mx-auto p-4 bg-white rounded-lg mb-[40px]'>
         <p className='text-xl mb-4'>Kategori</p>
@@ -110,6 +112,7 @@ function App() {
         </div>
       </div>
       <Footer/>
+      </div>
     </div>
     </ConfigProvider>
   )

@@ -21,7 +21,9 @@ export default function Header() {
     console.log(`selected ${value}`);
   };
   return (
-    <header className="max-w-screen-xl mx-auto header bg-white">
+    <header className=" w-full header bg-white fixed z-10">
+      <div className="max-w-screen-xl mx-auto">
+
       <div className=" justify-end gap-4 h-[64px] p-4 hidden lg:flex">
         <Select
           style={{ width: 200, height: "100%" }}
@@ -71,7 +73,7 @@ export default function Header() {
         </Button>
       </div>
       {open && (
-        <div className="p-4 h-screen absolute top-0 bg-white w-full lg:hidden z-10">
+        <div className="p-4 h-screen absolute top-0 bg-white w-full lg:hidden z-20">
           <div className="flex justify-between items-center mb-10">
             <img className="w-[200px] md:w-[35%]" src={logo} alt="logo" />
             <Button onClick={() => setOpen(false)} className="border-0">
@@ -104,6 +106,7 @@ export default function Header() {
           </div>
         </div>
       )}
+      </div>
     </header>
   );
 }
