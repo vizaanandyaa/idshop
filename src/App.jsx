@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header,Banner, CategoryCard, OfferCard, ProductSlider, Product } from './components'
+import { Header,Banner, CategoryCard, OfferCard, ProductSlider, Product,Footer } from './components'
 import { ConfigProvider, Tabs, Input } from 'antd'
 import { baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, event1,voucher1,pro1,pro2,pro3,pro4,pro5,pro6,pro7,pro8,pro9,pro10,pro11,pro12,pro13,pro14,pro15,pro16,pro17,pro18} from './assets'
 import { TopUp } from './features'
@@ -109,6 +109,7 @@ function App() {
           })}
         </div>
       </div>
+      <Footer/>
     </div>
     </ConfigProvider>
   )

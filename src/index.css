@@ -121,6 +121,10 @@ button:focus-visible {
   border-right: 1px solid #AFB1B6;
 }
 
+.to{
+  border-top:1px solid #AFB1B6 ;
+}
+
 @media only screen and (max-width: 1023px){
   .bannerClass{
     top: 70%;

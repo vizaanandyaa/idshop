@@ -18,7 +18,7 @@ export default function Product(props) {
   }
 
   return (
-    <div className='p-4 relative w-[152px]' key={recKey}>
+    <div className='p-4 relative w-[152px] bg-white' key={recKey}>
         {product.disc && 
         <div className='absolute right-0 bg-tosca top-1 w-[55px] h-[20px]'>
             <p className='text-center text-white text-sm'>{product.disc}</p>

@@ -39,9 +39,28 @@ import pro15 from './images/pro15.png'
 import pro16 from './images/pro16.png'
 import pro17 from './images/pro17.png'
 import pro18 from './images/pro18.png'
-
-
+import appst from './icons/appst.png'
+import goplay from './icons/goplay.png'
+import pay1 from './icons/payment/Badges.png'
+import pay2 from './icons/payment/Badges-1.png'
+import pay3 from './icons/payment/Badges-2.png'
+import pay4 from './icons/payment/Badges-3.png'
+import pay5 from './icons/payment/Badges-4.png'
+import pay6 from './icons/payment/Badges-5.png'
+import pay7 from './icons/payment/Badges-6.png'
+import pay8 from './icons/payment/Badges-7.png'
+import pay9 from './icons/payment/Badges-8.png'
+import ship1 from './icons/ship/Badges.png'
+import ship2 from './icons/ship/Badges-1.png'
+import ship3 from './icons/ship/Badges-2.png'
+import ship4 from './icons/ship/Badges-3.png'
+import sp1 from './icons/sp1.png'
+import sp2 from './icons/sp2.png'
+import sos1 from './icons/sosmed/Vector.png'
+import sos2 from './icons/sosmed/Vector-1.png'
+import sos3 from './icons/sosmed/Vector-2.png'
+import sos4 from './icons/sosmed/Vector-3.png'
 
 export {logo,cart, menu, prev,banner1,banner2,banner3,pet,baby,bag,dress,fnd,hnl,hobby,laptop,makeup,manshoe,med,tshirt,womanshoe, phone,event1,voucher1,pro1,pro2,pro3,pro4,pro5,pro6,
-    pro7,pro8,pro9,pro10,pro11,pro12,pro13,pro14,pro15,pro16,pro17,pro18
+    pro7,pro8,pro9,pro10,pro11,pro12,pro13,pro14,pro15,pro16,pro17,pro18, appst,goplay, pay1,pay2,pay3,pay4,pay5,pay6,pay7,pay8,pay9,ship1,ship2,ship3,ship4,sp1,sp2,sos1,sos2,sos3,sos4
 }
